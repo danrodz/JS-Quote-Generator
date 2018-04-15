@@ -1,3 +1,17 @@
+/* 
+Quotes Generated Types:
+•Comparison Sentence
+•Question Sentence
+•Statement Sentence
+
+randomComparison.newSentence(); for type 1
+randomQuestion.newSentence(); for type 2
+randomStatement.newSentence(); for type 3
+
+call  automaticGenerator(); for loop
+*/
+
+
 var pickRandomFragment,
   randomComparison,
   randomQuestion,
@@ -227,7 +241,3 @@ var automaticGenerator = function() {
   }
 };
 
-// use randomComparison.newSentence(); for type 1
-// use randomQuestion.newSentence(); for type 2
-// use randomStatement.newSentence(); for type 3
-// use automaticGenerator(); for loop
